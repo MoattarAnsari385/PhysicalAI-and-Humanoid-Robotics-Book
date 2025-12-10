@@ -1,0 +1,88 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* You can override the default Infima variables here. */
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for robotics textbook */
+.robotics-diagram {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+}
+
+.robotics-diagram-dark {
+  background-color: #2a2a2a;
+}
+
+/* Code block enhancements for robotics examples */
+.ros-code-block {
+  border-left: 4px solid #4CAF50;
+  margin: 16px 0;
+}
+
+/* Special styling for learning objectives */
+.learning-objectives {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196F3;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+html[data-theme='dark'] .learning-objectives {
+  background-color: #1a2332;
+}
+
+/* Assessment styling */
+.assessment-box {
+  border: 2px dashed #FF9800;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  background-color: #fff3e0;
+}
+
+html[data-theme='dark'] .assessment-box {
+  background-color: #4a3a2a;
+}
+
+/* URDF/XML code blocks */
+.language-urdf,
+.language-xml {
+  font-family: 'Monaco', 'Consolas', monospace;
+}
+
+/* Accessibility enhancements */
+.screen-reader-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Responsive adjustments for robotics diagrams */
+@media (max-width: 768px) {
+  .robotics-diagram {
+    padding: 12px;
+    margin: 12px 0;
+  }
+}

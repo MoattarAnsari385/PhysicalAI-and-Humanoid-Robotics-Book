@@ -1,0 +1,33 @@
+{
+  "id": "module-3-ai",
+  "title": "The AI-Robot Brain (NVIDIA Isaac)",
+  "description": "Implement perception, navigation, and AI integration using NVIDIA Isaac Sim and Isaac ROS for advanced robotics applications",
+  "learningOutcomes": [
+    "Understand NVIDIA Isaac ecosystem and simulation tools",
+    "Implement perception algorithms for robot vision and sensing",
+    "Create navigation workflows with visual SLAM and path planning",
+    "Develop object detection pipelines for robotic perception",
+    "Integrate Isaac ROS navigation tools for biped robots",
+    "Apply AI techniques for robot decision making and control"
+  ],
+  "sections": [
+    "isaac-overview",
+    "perception-pipelines",
+    "navigation-workflows",
+    "object-detection",
+    "isaac-sim",
+    "synthetic-datasets"
+  ],
+  "wordCount": 7000,
+  "prerequisites": [
+    "Module 1: ROS 2 fundamentals",
+    "Module 2: Simulation concepts",
+    "Basic understanding of AI and computer vision",
+    "CUDA and GPU computing fundamentals"
+  ],
+  "deliverables": [
+    "object-detection-pipeline",
+    "navigation-workflow"
+  ],
+  "state": "draft"
+}

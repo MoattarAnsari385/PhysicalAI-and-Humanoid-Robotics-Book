@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>Gazebo Simulation Validation</title>
+  <desc>Diagram showing simulation validation techniques comparing real and simulated robot behavior</desc>
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Gazebo Simulation Validation</text>
+  <text x="400" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">Simulation Validation in Gazebo Diagram</text>
+  <text x="400" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Module 2 - Simulation and Digital Twin Concepts</text>
+</svg>

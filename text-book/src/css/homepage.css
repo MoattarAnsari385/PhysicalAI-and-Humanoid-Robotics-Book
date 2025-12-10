@@ -1,0 +1,20 @@
+/* Hide navbar on homepage */
+.homepage-layout .navbar {
+  display: none !important;
+}
+
+/* Hide the entire header area if it exists */
+.homepage-layout .header {
+  display: none !important;
+}
+
+/* Ensure main content starts from top */
+.homepage-layout main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* For the home page, ensure full viewport height */
+.homepage-layout {
+  min-height: 100vh;
+}

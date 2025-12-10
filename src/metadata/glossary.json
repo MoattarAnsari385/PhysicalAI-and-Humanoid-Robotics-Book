@@ -1,0 +1,300 @@
+{
+  "glossary": {
+    "ROS": {
+      "term": "ROS",
+      "definition": "Robot Operating System - a flexible framework for writing robot software",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/"
+    },
+    "ROS2": {
+      "term": "ROS 2",
+      "definition": "Second generation Robot Operating System with improved architecture for production use",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/"
+    },
+    "Node": {
+      "term": "Node",
+      "definition": "A process that performs computation in ROS. Nodes are combined together into a graph and communicate with each other using topics, services, actions, and parameters",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/Concepts.html#computational-graphs"
+    },
+    "Topic": {
+      "term": "Topic",
+      "definition": "A named bus over which nodes exchange messages in a publish/subscribe communication pattern",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/Concepts.html#topics"
+    },
+    "Service": {
+      "term": "Service",
+      "definition": "A synchronous request/response communication pattern between nodes in ROS",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/Concepts.html#services"
+    },
+    "Action": {
+      "term": "Action",
+      "definition": "A communication pattern for long-running tasks with feedback in ROS",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/Concepts.html#actions"
+    },
+    "Gazebo": {
+      "term": "Gazebo",
+      "definition": "A robot simulation environment that provides realistic physics, high-quality graphics, and convenient programmatic interfaces",
+      "canonicalDocRef": "http://gazebosim.org/",
+      "moduleId": "module-2-simulation"
+    },
+    "URDF": {
+      "term": "URDF",
+      "definition": "Unified Robot Description Format - an XML format for representing a robot model",
+      "canonicalDocRef": "https://wiki.ros.org/urdf"
+    },
+    "TF": {
+      "term": "TF",
+      "definition": "Transform - a package that keeps track of coordinate frames over time in a tree structure",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/rclpy/tutorials/tf/"
+    },
+    "Isaac": {
+      "term": "Isaac",
+      "definition": "NVIDIA's robotics platform that provides simulation, perception, and navigation tools",
+      "canonicalDocRef": "https://developer.nvidia.com/isaac-sim"
+    },
+    "VLA": {
+      "term": "VLA",
+      "definition": "Vision-Language-Action - models that integrate visual perception, language understanding, and robotic action",
+      "canonicalDocRef": "https://www.vla-robot.github.io/"
+    },
+    "QoS": {
+      "term": "QoS",
+      "definition": "Quality of Service - a set of policies that define how messages are delivered in ROS 2, including reliability, durability, and liveliness",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/Concepts/About-Quality-of-Service-Settings.html",
+      "moduleId": "module-1-ros2"
+    },
+    "DDS": {
+      "term": "DDS",
+      "definition": "Data Distribution Service - the middleware that ROS 2 uses for communication between nodes",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/Concepts/About-Domain-Identifiers.html",
+      "moduleId": "module-1-ros2"
+    },
+    "rclpy": {
+      "term": "rclpy",
+      "definition": "ROS Client Library for Python - the Python API for ROS 2",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/rclpy/",
+      "moduleId": "module-1-ros2"
+    },
+    "rclcpp": {
+      "term": "rclcpp",
+      "definition": "ROS Client Library for C++ - the C++ API for ROS 2",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/rclcpp/",
+      "moduleId": "module-1-ros2"
+    },
+    "SDF": {
+      "term": "SDF",
+      "definition": "Simulation Description Format - an XML-based format for describing robots, sensors, and environments in Gazebo simulation",
+      "canonicalDocRef": "http://sdformat.org/",
+      "moduleId": "module-2-simulation"
+    },
+    "ODE": {
+      "term": "ODE",
+      "definition": "Open Dynamics Engine - a physics engine used by Gazebo for simulating rigid body dynamics",
+      "canonicalDocRef": "https://www.ode.org/",
+      "moduleId": "module-2-simulation"
+    },
+    "Bullet": {
+      "term": "Bullet",
+      "definition": "A physics engine used by Gazebo that provides more accurate contact simulation for complex interactions",
+      "canonicalDocRef": "https://pybullet.org/",
+      "moduleId": "module-2-simulation"
+    },
+    "Simbody": {
+      "term": "Simbody",
+      "definition": "A multibody dynamics engine used by Gazebo for very accurate simulation of complex articulated systems",
+      "canonicalDocRef": "https://simtk.org/projects/simbody",
+      "moduleId": "module-2-simulation"
+    },
+    "Inertial": {
+      "term": "Inertial",
+      "definition": "Physical properties of a link that define its mass, center of mass, and moment of inertia for physics simulation",
+      "canonicalDocRef": "http://sdformat.org/spec?ver=1.7&elem=link#inertial",
+      "moduleId": "module-2-simulation"
+    },
+    "Collision": {
+      "term": "Collision",
+      "definition": "Geometry used for collision detection in simulation, typically simpler than visual geometry for performance",
+      "canonicalDocRef": "http://sdformat.org/spec?ver=1.7&elem=link#collision",
+      "moduleId": "module-2-simulation"
+    },
+    "IMU": {
+      "term": "IMU",
+      "definition": "Inertial Measurement Unit - a sensor that measures specific force, angular rate, and sometimes magnetic field",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/geometry_msgs/msg/Imu.html",
+      "moduleId": "module-2-simulation"
+    },
+    "LiDAR": {
+      "term": "LiDAR",
+      "definition": "Light Detection and Ranging - a sensor technology that measures distances by illuminating targets with laser light",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/sensor_msgs/msg/LaserScan.html",
+      "moduleId": "module-2-simulation"
+    },
+    "GazeboPlugin": {
+      "term": "Gazebo Plugin",
+      "definition": "A dynamically-loaded piece of code that extends Gazebo functionality, such as controlling models or sensors",
+      "canonicalDocRef": "http://gazebosim.org/tutorials?tut=plugins_hello_world",
+      "moduleId": "module-2-simulation"
+    },
+    "GroundTruth": {
+      "term": "Ground Truth",
+      "definition": "Accurate reference measurements in simulation that represent the true state of the system without noise",
+      "canonicalDocRef": "http://gazebosim.org/tutorials?tut=ros_comm",
+      "moduleId": "module-2-simulation"
+    },
+    "IsaacSim": {
+      "term": "Isaac Sim",
+      "definition": "NVIDIA's high-fidelity simulation environment built on Omniverse for robotics development and synthetic data generation",
+      "canonicalDocRef": "https://docs.omniverse.nvidia.com/isaacsim/latest/isaacsim.html",
+      "moduleId": "module-3-ai"
+    },
+    "IsaacROS": {
+      "term": "Isaac ROS",
+      "definition": "Hardware-accelerated perception and navigation packages for ROS 2 optimized for NVIDIA GPUs",
+      "canonicalDocRef": "https://github.com/NVIDIA-ISAAC-ROS",
+      "moduleId": "module-3-ai"
+    },
+    "SyntheticData": {
+      "term": "Synthetic Data",
+      "definition": "Artificially generated data that mimics real-world observations, used for training AI models without collecting physical data",
+      "canonicalDocRef": "https://developer.nvidia.com/blog/accelerating-synthetic-data-generation-for-ai-with-isaac-sim/",
+      "moduleId": "module-3-ai"
+    },
+    "DomainRandomization": {
+      "term": "Domain Randomization",
+      "definition": "A technique that introduces extensive variations in synthetic training data to improve model robustness to domain shift",
+      "canonicalDocRef": "https://research.nvidia.com/publication/2021-06_Photorealistic-Simulation-Training",
+      "moduleId": "module-3-ai"
+    },
+    "SLAM": {
+      "term": "SLAM",
+      "definition": "Simultaneous Localization and Mapping - the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping",
+      "moduleId": "module-3-ai"
+    },
+    "VisualSLAM": {
+      "term": "Visual SLAM",
+      "definition": "SLAM using visual sensors (cameras) as the primary input for mapping and localization",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/isaac_ros_visual_slam/",
+      "moduleId": "module-3-ai"
+    },
+    "ObjectDetection": {
+      "term": "Object Detection",
+      "definition": "Computer vision task of identifying and locating objects in images or videos with bounding boxes and class labels",
+      "canonicalDocRef": "https://developer.nvidia.com/blog/deep-learning-based-object-detection-in-ros-2-using-isaac-ros/",
+      "moduleId": "module-3-ai"
+    },
+    "TensorRT": {
+      "term": "TensorRT",
+      "definition": "NVIDIA's SDK for high-performance inference optimization and deployment of deep learning models",
+      "canonicalDocRef": "https://developer.nvidia.com/tensorrt",
+      "moduleId": "module-3-ai"
+    },
+    "Omniverse": {
+      "term": "Omniverse",
+      "definition": "NVIDIA's platform for real-time simulation and design collaboration based on Pixar's USD",
+      "canonicalDocRef": "https://www.nvidia.com/en-us/omniverse/",
+      "moduleId": "module-3-ai"
+    },
+    "USD": {
+      "term": "USD",
+      "definition": "Universal Scene Description - Pixar's 3D scene representation and ecosystem for 3D graphics interchange",
+      "canonicalDocRef": "https://graphics.pixar.com/usd/release/",
+      "moduleId": "module-3-ai"
+    },
+    "PerceptionPipeline": {
+      "term": "Perception Pipeline",
+      "definition": "A sequence of processing steps that transform raw sensor data into meaningful environmental understanding for a robot",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/isaac_ros_apriltag/",
+      "moduleId": "module-3-ai"
+    },
+    "BipedKinematics": {
+      "term": "Biped Kinematics",
+      "definition": "The study of motion for two-legged robots, including the mathematical models that describe how joints and limbs move",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Kinematics",
+      "moduleId": "module-3-ai"
+    },
+    "RRT": {
+      "term": "RRT",
+      "definition": "Rapidly-exploring Random Tree - a path planning algorithm that builds a tree of possible paths by randomly sampling the configuration space",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Rapidly_exploring_random_tree",
+      "moduleId": "module-3-ai"
+    },
+    "PathPlanning": {
+      "term": "Path Planning",
+      "definition": "The computational process of finding a valid, optimal path from a start to a goal position while avoiding obstacles",
+      "canonicalDocRef": "https://docs.ros.org/en/humble/p/nav2_planner/",
+      "moduleId": "module-3-ai"
+    },
+    "SemanticSegmentation": {
+      "term": "Semantic Segmentation",
+      "definition": "Computer vision task of classifying each pixel in an image into a category, creating a pixel-wise map of semantic information",
+      "canonicalDocRef": "https://developer.nvidia.com/blog/deep-learning-based-semantic-segmentation/",
+      "moduleId": "module-3-ai"
+    },
+    "InstanceSegmentation": {
+      "term": "Instance Segmentation",
+      "definition": "Computer vision task that combines object detection and semantic segmentation to identify and delineate each object instance in an image",
+      "canonicalDocRef": "https://docs.nvidia.com/cuda-samples/sample_apps/instanceSegmentation/index.html",
+      "moduleId": "module-3-ai"
+    },
+    "GPUAcceleration": {
+      "term": "GPU Acceleration",
+      "definition": "Use of graphics processing units to accelerate computational tasks, particularly effective for parallelizable operations in AI and robotics",
+      "canonicalDocRef": "https://developer.nvidia.com/gpu-accelerated-applications",
+      "moduleId": "module-3-ai"
+    },
+    "CUDA": {
+      "term": "CUDA",
+      "definition": "Compute Unified Device Architecture - NVIDIA's parallel computing platform and programming model for GPUs",
+      "canonicalDocRef": "https://developer.nvidia.com/cuda-zone",
+      "moduleId": "module-3-ai"
+    },
+    "Whisper": {
+      "term": "Whisper",
+      "definition": "OpenAI's automatic speech recognition system that converts spoken language to text",
+      "canonicalDocRef": "https://github.com/openai/whisper",
+      "moduleId": "module-4-vla"
+    },
+    "CognitivePlanner": {
+      "term": "Cognitive Planner",
+      "definition": "A system that translates high-level goals into executable action sequences for robots",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Automated_planning_and_scheduling",
+      "moduleId": "module-4-vla"
+    },
+    "HierarchicalTaskNetwork": {
+      "term": "Hierarchical Task Network (HTN)",
+      "definition": "A planning methodology that decomposes complex tasks into simpler subtasks using predefined methods",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Hierarchical_task_network",
+      "moduleId": "module-4-vla"
+    },
+    "BehaviorTree": {
+      "term": "Behavior Tree",
+      "definition": "A tree-structured model of robot behaviors used for task execution and decision making",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Behavior_tree_(artificial_intelligence)",
+      "moduleId": "module-4-vla"
+    },
+    "MultimodalFusion": {
+      "term": "Multimodal Fusion",
+      "definition": "The process of combining information from multiple sensory modalities (vision, language, etc.) for decision making",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Multimodal_integration",
+      "moduleId": "module-4-vla"
+    },
+    "TaskDecomposition": {
+      "term": "Task Decomposition",
+      "definition": "The process of breaking down complex tasks into simpler, executable subtasks",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Task_analysis",
+      "moduleId": "module-4-vla"
+    },
+    "PlanExecution": {
+      "term": "Plan Execution",
+      "definition": "The process of carrying out a sequence of actions as determined by a planning system",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Plan_(computer_science)",
+      "moduleId": "module-4-vla"
+    },
+    "VoiceCommandMapping": {
+      "term": "Voice Command Mapping",
+      "definition": "The process of converting spoken commands into robotic actions through natural language processing",
+      "canonicalDocRef": "https://en.wikipedia.org/wiki/Speech_recognition",
+      "moduleId": "module-4-vla"
+    }
+  }
+}

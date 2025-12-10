@@ -1,0 +1,30 @@
+{
+  "id": "module-1-ros2",
+  "title": "Robotic Nervous System (ROS 2)",
+  "description": "Introduction to ROS 2 fundamentals: nodes, topics, services, actions, and basic robot control",
+  "learningOutcomes": [
+    "Understand ROS 2 node architecture and communication patterns",
+    "Implement basic publisher-subscriber communication",
+    "Create and use services for request-response communication",
+    "Work with actions for long-running tasks with feedback",
+    "Build a minimal robot package with proper URDF description"
+  ],
+  "sections": [
+    "nodes-topics-services",
+    "ros2-architecture",
+    "urdf-basics",
+    "rclpy-examples",
+    "minimal-robot-package"
+  ],
+  "wordCount": 7000,
+  "prerequisites": [
+    "Basic Python programming",
+    "Linux command line familiarity",
+    "Understanding of basic robotics concepts"
+  ],
+  "deliverables": [
+    "minimal-robot-package",
+    "ros2-communication-diagram"
+  ],
+  "state": "draft"
+}

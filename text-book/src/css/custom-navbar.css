@@ -1,0 +1,49 @@
+/* Custom styling for navbar sign in and sign up buttons */
+.navbar__item[href="/login"],
+.navbar__item[href="/signup"] {
+  display: inline-block !important;
+}
+
+.navbar__link[href="/login"],
+.navbar__link[href="/signup"] {
+  padding: 0.5rem 1.5rem !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+}
+
+.navbar__link[href="/login"] {
+  background: transparent !important;
+  border: 2px solid #E00070 !important;
+  color: white !important;
+}
+
+.navbar__link[href="/signup"] {
+  background: linear-gradient(45deg, #E00070, #FF7A00) !important;
+  color: white !important;
+  border: none !important;
+  margin-left: 0.5rem !important;
+}
+
+.navbar__link[href="/login"]:hover {
+  background: rgba(224, 0, 112, 0.1) !important;
+  border-color: #FF7A00 !important;
+  transform: translateY(-2px) !important;
+}
+
+.navbar__link[href="/signup"]:hover {
+  opacity: 0.9 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 15px rgba(224, 0, 112, 0.4) !important;
+}
+
+/* Adjust for dark mode */
+html[data-theme="dark"] .navbar__link[href="/login"] {
+  border: 2px solid #E00070 !important;
+}
+
+html[data-theme="dark"] .navbar__link[href="/login"]:hover {
+  background: rgba(224, 0, 112, 0.1) !important;
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>Synthetic Data Generation</title>
+  <desc>Diagram showing synthetic data generation pipeline for AI training in robotics</desc>
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Synthetic Data Generation</text>
+  <text x="400" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">Synthetic Data Generation Diagram</text>
+  <text x="400" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Module 3 - AI Perception and Navigation</text>
+</svg>

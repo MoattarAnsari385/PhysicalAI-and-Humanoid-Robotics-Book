@@ -1,0 +1,30 @@
+{
+  "id": "module-2-simulation",
+  "title": "The Digital Twin (Gazebo & Simulation)",
+  "description": "Explore simulation environments and digital twin concepts using Gazebo for physics simulation, sensors, and environment interaction",
+  "learningOutcomes": [
+    "Understand Gazebo simulation environment and physics engine",
+    "Create and configure simulation worlds with physics properties",
+    "Implement various sensor models (IMU, depth camera, LiDAR)",
+    "Design humanoid test scenes with proper physics interactions",
+    "Validate simulation results against real-world expectations",
+    "Integrate sensors with ROS 2 for perception and navigation"
+  ],
+  "sections": [
+    "gazebo-worlds",
+    "physics-simulation",
+    "sensors",
+    "humanoid-test-scene"
+  ],
+  "wordCount": 7000,
+  "prerequisites": [
+    "Module 1: ROS 2 fundamentals",
+    "Basic understanding of physics concepts",
+    "Linux command line familiarity"
+  ],
+  "deliverables": [
+    "simulation-world-description",
+    "humanoid-test-scene"
+  ],
+  "state": "published"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "module-4-vla",
+  "title": "Vision-Language-Action (VLA) Integration",
+  "description": "Implement cognitive robotics integration using Vision-Language-Action models with Whisper voice mapping and cognitive planning for humanoid robots",
+  "learningOutcomes": [
+    "Understand Vision-Language-Action (VLA) model architectures and applications",
+    "Implement Whisper voice-to-ROS 2 command mapping for robot control",
+    "Create cognitive planning workflows for complex robotic tasks",
+    "Develop task planning and execution frameworks for humanoid robots",
+    "Integrate multimodal AI models for perception and decision making",
+    "Execute complete capstone scenario with voice input and autonomous action"
+  ],
+  "sections": [
+    "intro",
+    "voice-mapping",
+    "cognitive-planning",
+    "vla-integration",
+    "task-planning",
+    "capstone-scenario"
+  ],
+  "wordCount": 7200,
+  "prerequisites": [
+    "Module 1: ROS 2 fundamentals",
+    "Module 2: Simulation concepts",
+    "Module 3: AI perception and navigation",
+    "Understanding of multimodal AI models",
+    "Python programming for robotics applications"
+  ],
+  "deliverables": [
+    "voice-command-integration",
+    "cognitive-planning-workflow",
+    "vla-capstone-scenario"
+  ],
+  "state": "draft"
+}

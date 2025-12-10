@@ -1,0 +1,15 @@
+.docItemArticle {
+  max-width: 650px;
+}
+
+.docItemCol {
+  max-width: 75% !important;
+  flex-grow: 1 !important;
+  flex-basis: 0 !important;
+}
+
+@media (min-width: 997px) {
+  .docItemCol {
+    max-width: 75% !important;
+  }
+}

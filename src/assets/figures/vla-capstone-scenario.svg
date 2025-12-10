@@ -1,0 +1,108 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <title>VLA Capstone Scenario</title>
+  <desc>Diagram showing the complete VLA capstone scenario with voice command to robot action</desc>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="20" text-anchor="middle" fill="#212529">
+    VLA Capstone Scenario: Voice-Controlled Humanoid Robot
+  </text>
+
+  <!-- User speaking -->
+  <circle cx="100" cy="100" r="40" fill="#d1ecf1" stroke="#0c5460" stroke-width="2"/>
+  <text x="100" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">
+    User
+  </text>
+  <text x="100" y="120" font-family="Arial" font-size="10" text-anchor="middle" fill="#212529">
+    Speaking
+  </text>
+
+  <!-- Speech bubble -->
+  <path d="M 140 90 Q 200 70, 250 100 Q 200 130, 140 110 Z" fill="white" stroke="#495057" stroke-width="1"/>
+  <text x="200" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">
+    "Go to kitchen,
+  </text>
+  <text x="200" y="120" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">
+    get red cup"
+  </text>
+
+  <!-- Voice Processing -->
+  <rect x="280" y="80" width="160" height="60" fill="#d4edda" stroke="#155724" stroke-width="2" rx="5"/>
+  <text x="360" y="100" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529" font-weight="bold">
+    Voice Processing
+  </text>
+  <text x="360" y="115" font-family="Arial" font-size="10" text-anchor="middle" fill="#212529">
+    (Whisper + NLP)
+  </text>
+
+  <!-- Planning System -->
+  <rect x="280" y="180" width="160" height="60" fill="#f8d7da" stroke="#721c24" stroke-width="2" rx="5"/>
+  <text x="360" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529" font-weight="bold">
+    Task Planning
+  </text>
+  <text x="360" y="215" font-family="Arial" font-size="10" text-anchor="middle" fill="#212529">
+    (Decomposition & Sequencing)
+  </text>
+
+  <!-- Vision System -->
+  <rect x="500" y="180" width="160" height="60" fill="#fff3cd" stroke="#856404" stroke-width="2" rx="5"/>
+  <text x="580" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529" font-weight="bold">
+    Vision System
+  </text>
+  <text x="580" y="215" font-family="Arial" font-size="10" text-anchor="middle" fill="#212529">
+    (Object Detection & Localization)
+  </text>
+
+  <!-- Humanoid Robot -->
+  <g transform="translate(300, 350)">
+    <!-- Robot body -->
+    <rect x="100" y="0" width="40" height="60" fill="#cce5ff" stroke="#0066cc" stroke-width="2"/>
+    <!-- Robot head -->
+    <circle cx="120" cy="-15" r="15" fill="#cce5ff" stroke="#0066cc" stroke-width="2"/>
+    <!-- Robot arms -->
+    <line x1="90" y1="10" x2="100" y2="10" stroke="#0066cc" stroke-width="4"/>
+    <line x1="140" y1="10" x2="150" y2="10" stroke="#0066cc" stroke-width="4"/>
+    <!-- Robot legs -->
+    <line x1="110" y1="60" x2="110" y2="90" stroke="#0066cc" stroke-width="4"/>
+    <line x1="130" y1="60" x2="130" y2="90" stroke="#0066cc" stroke-width="4"/>
+    <!-- Robot holding object -->
+    <rect x="150" y="5" width="15" height="10" fill="#ff6b6b" stroke="#d63031" stroke-width="1" rx="2"/>
+
+    <text x="120" y="110" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529">
+      Humanoid Robot
+    </text>
+  </g>
+
+  <!-- Kitchen area -->
+  <rect x="550" y="320" width="180" height="120" fill="#e2e3e5" stroke="#495057" stroke-width="2" rx="5"/>
+  <text x="640" y="340" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529" font-weight="bold">
+    Kitchen
+  </text>
+  <rect x="580" y="360" width="30" height="30" fill="#ff6b6b" stroke="#d63031" stroke-width="2" rx="5"/>
+  <text x="595" y="380" font-family="Arial" font-size="10" text-anchor="middle" fill="#212529">
+    Red Cup
+  </text>
+
+  <!-- Living Room area -->
+  <rect x="100" y="320" width="180" height="120" fill="#e2e3e5" stroke="#495057" stroke-width="2" rx="5"/>
+  <text x="190" y="340" font-family="Arial" font-size="12" text-anchor="middle" fill="#212529" font-weight="bold">
+    Living Room
+  </text>
+
+  <!-- Arrows showing process flow -->
+  <line x1="140" y1="100" x2="280" y2="110" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="360" y1="140" x2="360" y2="180" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="360" y1="240" x2="360" y2="350" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="580" y1="240" x2="450" y2="350" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="450" y1="420" x2="640" y2="420" stroke="#495057" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+  <line x1="640" y1="350" x2="450" y2="350" stroke="#495057" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#495057"/>
+    </marker>
+  </defs>
+</svg>

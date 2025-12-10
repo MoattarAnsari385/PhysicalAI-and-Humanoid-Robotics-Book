@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>ROS 2 Time System</title>
+  <desc>Diagram showing ROS 2 time system with system and simulation time</desc>
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">ROS 2 Time System</text>
+  <text x="400" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">ROS 2 Time System Diagram</text>
+  <text x="400" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Module 1 - ROS 2 Fundamentals</text>
+</svg>

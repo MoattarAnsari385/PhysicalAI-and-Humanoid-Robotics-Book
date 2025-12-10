@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>Object Detection Pipeline</title>
+  <desc>Diagram showing object detection pipeline with preprocessing, inference, and postprocessing</desc>
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Object Detection Pipeline</text>
+  <text x="400" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">Object Detection Pipeline Diagram</text>
+  <text x="400" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Module 3 - AI Perception and Navigation</text>
+</svg>
